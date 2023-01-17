@@ -14,6 +14,8 @@ function start() {
     numeroDoUser = prompt(`Adivinhe o número de 1 a 10:\n
     Número de tentativas: ${tentativas} \n`)
 
+    tentativas++
+
     if (!numeroDoUser) {
       break
     }
