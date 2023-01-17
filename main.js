@@ -21,7 +21,7 @@ function start() {
     }
 
     if (numeroDoUser == numeroAleatorio) {
-      alert(` Parabéns, você acertou o número com ${tentativas}: tentativa(s) `)
+      alert(` Parabéns, você acertou o número com ${tentativas} tentativa(s) `)
       break
     } else {
       alert(
