@@ -25,6 +25,7 @@ function start() {
 
     if (numeroDoUser == numeroAleatorio) {
       alert(` Parábens, você acertou o número com ${tentativas} tentativa(s) `)
+      break
     } else {
       alert(
         `Você errou, digite outro número e tente novamente. Até agora você tentou: ${tentativas} vez(es)`
@@ -33,5 +34,5 @@ function start() {
   }
 }
 
-// TODO 1 - Ajeitar o style da página 
+// TODO 1 - Ajeitar o style da página
 // TODO 2 - Refatorar código do projeto
